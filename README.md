@@ -2,6 +2,8 @@
 
 This repository contains generic starting templates for architectural diagrams used in our projects. These diagrams are meant to be used as a foundation for client-specific architectural designs.
 
+It also contains a library of reference libraries for AWS and Databricks. For Azure diagrams, the most reliable and up-to-date diagrams and diagram tools are located at [[Azure Diagrams](https://azurediagrams.com/)].
+
 ## Contents
 
 - C4 Model Diagrams
@@ -30,7 +32,7 @@ For detailed instructions on creating C4 diagrams, please refer to the C4 instru
 
 Our cloud architecture diagrams are designed to capture detailed solution architectures. We use a layered approach:
 
-1. Abstract Layer: High-level overview of the system
+1. Abstract Layer: High-level overview of the system (this could be the C4 diagram)
 2. Networking Layer: Network topology and connections
 3. Storage Layer: Major storage resources
 4. Compute Layer: Compute resources where needed
